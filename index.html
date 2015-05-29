@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="filter.css">
+        <!-- // <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="site" class="site">
+        	<div class="filter">
+				<!-- Optional -->
+				<h1 class="filter__title">Filter a list</h1>
+				<!-- Required Element -->
+			    <input class="filter__input" type="text">
+				<!-- Required Elements To Be Filtered -->
+		    	<div class="filter__item" data-filter-item="one">One</div>
+		    	<div class="filter__item" data-filter-item="two">Two</div>
+		    	<div class="filter__item" data-filter-item="three">Three</div>
+		    	<div class="filter__item" data-filter-item="four">Four</div>
+		    	<div class="filter__item" data-filter-item="five">Five</div>
+			</div>
+        </div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="helper.js"></script>
+      	<script src="filter-rf.js"></script>
+      	
+    </body>
+</html>
